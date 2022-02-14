@@ -1,7 +1,9 @@
+/* SITE-HEADER */
 .site-header {
  background-color: white;
 }
 
+/* SITE-NAV */
 .site-nav-list {
   list-style: none;
 }
@@ -16,6 +18,7 @@
   color: #000;
 }
 
+/* MAIN-LINK */
 .main-link {
   font-size: 13px;
   color: white;
@@ -24,6 +27,7 @@
   text-decoration: none;
 }
 
+/* HERO */
 .hero {
 background-color: #252420;
 color: #fff;
@@ -55,6 +59,7 @@ width: 390px;
   letter-spacing: 0.5px;
 }
 
+/* FEATURES */
 .feature-heading {
   width: 440px;
   font-size: 72px;
@@ -62,6 +67,7 @@ width: 390px;
   letter-spacing: 0.5px;
 }
 
+/* FEATURE */
 .feature {
   width: 340px;
 }
@@ -84,6 +90,7 @@ width: 390px;
   letter-spacing: 0.5px;
 }
 
+/* PROMO */
 .promo {
   background-color: #252420;
   color: #fff;
@@ -113,6 +120,7 @@ width: 390px;
   object-fit: cover;
 }
 
+/* SITE-FOOTER */
 site-footer {
   background-color: #f8f8f8;
 
