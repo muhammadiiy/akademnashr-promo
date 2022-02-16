@@ -5,6 +5,11 @@ body {
   letter-spacing: 0.5px;
 }
 
+*:focus {
+  outline: 2px dotted #ff7500;
+  outline-offset: 3px;
+}
+
 /* SITE-HEADER */
 .site-header {
   display: flex;
@@ -120,6 +125,7 @@ width: 390px;
 /* FEATURE */
 .feature {
   width: 340px;
+  list-style: none;
 }
 
 .feature-icon-wrapper {
@@ -131,7 +137,7 @@ width: 390px;
 .feature-title {
   font-size: 24px;
   line-height: 1.2;
-  letter-spacing: 0.5 px;
+  letter-spacing: 0.5px;
   font-family: "Roboto Condensed", "Roboto", "Arial", sans-serif ;
 
 }
