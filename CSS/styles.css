@@ -15,7 +15,10 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
- background-color: white;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  border-top: 5px solid #ff7500;
+  background-color: white;
 }
 
 .logo-link {
@@ -37,6 +40,7 @@ transition: opacity 0.4s ease;
 
 /* SITE-NAV */
 .site-nav-list {
+  padding: 0;
   list-style: none;
   display: flex;
 }
@@ -63,7 +67,11 @@ transition: opacity 0.4s ease;
 
 /* MAIN-LINK */
 .main-link {
+  display: inline-block;
+  padding: 12px 24px;
+  border-radius: 4px;
   font-size: 13px;
+  font-weight: bold;
   color: white;
   line-height: 15px;
   background-color: #ff7500;
@@ -84,6 +92,8 @@ transition: opacity 0.4s ease;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
 background-color: #252420;
 color: #fff;
 }
@@ -95,11 +105,13 @@ width: 390px;
 .orange-line {
   width: 80px;
   height: 3px;
+  border: none;
   background-color: #ff7500;
 }
 .hero-img {
   width: 510px;
   height: 510px;
+  border-radius: 8px;
 }
 
 .hero-heading {
@@ -110,6 +122,12 @@ width: 390px;
 
 
 /* FEATURES */
+
+.features {
+  padding-top: 210px;
+  padding-bottom: 210px;
+}
+
 .feature-heading {
   width: 440px;
   font-size: 72px;
@@ -120,18 +138,23 @@ width: 390px;
 .features-list {
   display: flex;
   justify-content: space-between;
+  padding: 0;
+  list-style: none;
 }
 
 /* FEATURE */
 .feature {
   width: 340px;
-  list-style: none;
 }
 
 .feature-icon-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100px;
   height: 100px;
   background-color: rgba(255, 117, 0, 0.2);
+  border-radius: 50%;
 }
 
 .feature-title {
@@ -148,6 +171,7 @@ width: 390px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-radius: 12px;
   background-color: #252420;
   color: #fff;
 }
@@ -167,13 +191,16 @@ width: 390px;
 }
 
 .promo-img {
+  border-radius: 12px;
   width: 440px;
   height: 440px;
   object-fit: cover;
 }
 
 /* SITE-FOOTER */
-site-footer {
+.site-footer {
+  padding-top: 56px;
+  padding-bottom: 56px;
   background-color: #f8f8f8;
 
 }
@@ -186,10 +213,12 @@ site-footer {
 }
 
 .site-footer ul {
+  padding: 0;
   list-style: none;
 }
 
 .site-footer-socials {
+padding: 0;
   display: flex;
   align-items: center;
 }
@@ -207,6 +236,7 @@ site-footer {
 }
 
 .site-footer-divider {
+  border: 0;
   background-color: rgba(37, 36, 32, 0.5);
   height: 2px;
 }
